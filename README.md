@@ -2,7 +2,7 @@
 
 ***Functions***：In this study, we preprocessed the 24 functional classifications of mouse proteins, divided the 24 functional classifications into groups using community detection algorithms, and finally got 3 groups, then processed the original data according to these 3 groups. Then use a popular multi-label classification algorithm, Random k-Labelsets (RAKEL) algorithm to build the classifier, and select Random Forest, RBFKernel and PolyKernel support vector machine algorithm as the basic classification algorithm, using ten-fold cross-validation to evaluate performance. We first merge the calculation results of the grouped dataset. Then compare it with the calculation result of ungrouped data. We use Accuracy, Exact match and hamming loss to measure our results. The calculation results of grouped data perform better than ungrouped data.
 
-![](https://typora-lixuan.oss-cn-shanghai.aliyuncs.com/论文流程图.png)
+![论文流程图2](https://typora-lixuan.oss-cn-shanghai.aliyuncs.com/论文流程图2.png)
 
 ### MEKA Command
 
