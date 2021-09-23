@@ -1,6 +1,6 @@
-# Prediction of mouse protein functional labels
+# Identification of protein functions in mouse
 
-***Functions***：In this study, we preprocessed the 24 functional classifications of mouse proteins, divided the 24 functional classifications into groups using community detection algorithms, and finally got 3 groups, then processed the original data according to these 3 groups. Then use a popular multi-label classification algorithm, Random k-Labelsets (RAKEL) algorithm to build the classifier, and select Random Forest, RBFKernel and PolyKernel support vector machine algorithm as the basic classification algorithm, using ten-fold cross-validation to evaluate performance. We first merge the calculation results of the grouped dataset. Then compare it with the calculation result of ungrouped data. We use Accuracy, Exact match and hamming loss to measure our results. The calculation results of grouped data perform better than ungrouped data.
+***Functions***: In this study, we proposed a novel multi-label classifier to identify protein functions in mouse. This classifier employed a procedure of analyzing the associations between function labels. Labels were divided into some partitions. On each partition, a multi-label classifier was set up on the basis of RAKEL. The finally classifier integrated the multi-label classifiers on all partitions. The test results indicated that the classifiers employing the label partition were superior to generally classifiers without label partition or those with random label partitions.
 
 ![论文流程图2](https://typora-lixuan.oss-cn-shanghai.aliyuncs.com/论文流程图2.png)
 
