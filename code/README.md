@@ -1,21 +1,10 @@
-2. 
-3. 
-4. `LouvainCommunity.ipynb` : Script of Louvain Community Algorithm
-5. `cram_v.pdf` : Correlation Matrix of Protein Function
-6. `Number of intesction.xls ` : Input file for calculating correlation matrix
-7. `Mashup/` : Input file and script of Mashup
-
-
-
 1. `Domain embedding features/`: Scripts and files used to extract domain embedding features
 2. `LouvainCommunity/`: Scripts and files used to cluster tags
 3. `Network embedding features/`: Scripts and files used to extract network embedding features
 
-
-
 ### Note
 
-* The meaning of the numbers in `vertex_class.csv、LouvainCommunity.csv、cram_v.pdf、Number of intesction.xls` 
+* The meaning of the numbers in `vertex_class.csv、LouvainCommunity.csv、cram_v.pdf...` 
 
 | Functional number | Functional Category                                          |
 | :---------------: | :----------------------------------------------------------- |
