@@ -1,10 +1,15 @@
-1. `word2vector.py` : The program of word2vector method
-2. `vertex_class.csv` : Input file of the word2vector program
-3. `mouse_protein_w2v_detailed.csv` : 256-Dimension vector of each protein
+2. 
+3. 
 4. `LouvainCommunity.ipynb` : Script of Louvain Community Algorithm
 5. `cram_v.pdf` : Correlation Matrix of Protein Function
 6. `Number of intesction.xls ` : Input file for calculating correlation matrix
 7. `Mashup/` : Input file and script of Mashup
+
+
+
+1. `Domain embedding features/`: Scripts and files used to extract domain embedding features
+2. `LouvainCommunity/`: Scripts and files used to cluster tags
+3. `Network embedding features/`: Scripts and files used to extract network embedding features
 
 
 

@@ -1,3 +1,2 @@
-2. `Mashup_output_file/` : Network feature of Protein
-3. `Meka_input/` : input file of the Meka 
+1. `Meka_input/` : input file of the Meka , It contains two features: domain embedding features and network embedding features
 
