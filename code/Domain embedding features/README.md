@@ -1,5 +1,5 @@
-1. `input/vertex_class.csv` : Input file of the word2vector program, The content in the file is the functional label of each protein
+1. `input/Uniprot_Ipr.txt` : input file of the word2vector program
 2. `script/word2vector.py` : The program of word2vector method
 
-3. `output/mouse_protein_w2v_detailed.csv` : 256-Dimension vector of each protein
+3. `output/IPR_embedding.gz` : 256-Dimension vector of each domain (IPR ID)
 
